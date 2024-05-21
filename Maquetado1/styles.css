@@ -1,14 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color:#242526;
+    background: linear-gradient(0deg, rgba(16,11,17,1) 0%, rgba(30,20,33,1) 42%, rgba(79,25,96,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header{
-    background-color:#9c2ec0;
-    text-align:center;
-    font-family: system-ui;
+    background-color:#c5bd0b;
     color:white;
+    text-align:center;
+    font-family:system-ui;
+    height:80px;
+    margin-top:15px;
+    width:96%;
+    margin-left:2%;
+    border-radius:20px;
+    box-shadow: 6px 6px 0px rgb(255 255 255 / 20%);
 }
 
 header h1{
     margin:0;
+    padding-top:15px;
+}
+
+.firstp{
+    width:100%;
+    height:350px;
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.firstp img{
+    width:250px;
+    height:250px;
+    box-shadow:6px 6px 0px rgb(255 255 255/20%);
 }
