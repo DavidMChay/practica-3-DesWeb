@@ -1,6 +1,14 @@
+body{
+    background-color:#242526;
+}
+
 header{
     background-color:#9c2ec0;
     text-align:center;
     font-family: system-ui;
     color:white;
+}
+
+header h1{
+    margin:0;
 }
