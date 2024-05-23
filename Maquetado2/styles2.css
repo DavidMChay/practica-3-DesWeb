@@ -10,7 +10,57 @@ body{
 
 .contenedor{
     display: flex;
-    justify-content: center;
+    margin-top:16px;
     align-items: center;
     height: 100%;
+    background-color:white;
+    box-shadow: -1px 6px 15px rgb(0 0 0 / 16%);
+    width:82.8%;
+    margin-left:8.6%;
+    border-radius:56px;
+    height:70px;
+}
+
+.contenedor img{
+    padding-top:2px;
+    padding-left:11px;
+    width:12%;
+}
+
+.contenedor #txt-cont-a{
+    font-family: system-ui;
+    color:#5E6D75;
+    font-size:24px;
+    transition-duration: 0.12s;
+    padding-bottom:6px;
+    padding-left:1%;
+}
+
+.contenedor #txt-cont-a:hover{
+    transition-duration: 0.12s;
+    color:black;
+}
+
+main{
+    margin-top:11%;
+    margin-left:111px;
+}
+
+main .title-content-one{
+    font-family: system-ui;
+    font-size:19px;
+    width:55%;
+    color:#212529;
+}
+
+main .title-content-one #title-one-p1{
+    margin:0;
+}
+
+main #decorator-title-one-p1{
+    width: 20%;
+    height: 7px;
+    background: #59AF31;
+    border-radius: 50px;
+    margin-top:-10px;
 }
